@@ -10,12 +10,12 @@ function toggleMode ()
 
   //Com light mode
   if (html.classList.contains('light')) {
-    img.setAttribute("src", "/assets/images/avatar-light.png")
+    img.setAttribute("src", "assets/images/avatar-light.png")
     img.setAttribute("alt", "Foto de Perfil do Eduardo Sena em Light Mode")
 
     //Sem light mode
   } else {
-    img.setAttribute("src", "/assets/images/avatar.png")
+    img.setAttribute("src", "assets/images/avatar.png")
     img.setAttribute("alt", "Foto de Perfil do Eduardo Sena em Dark Mode")
   }
 }
