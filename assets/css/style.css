@@ -31,7 +31,7 @@ Elementos "Inline", não é possível adicionar o "margin: auto" apenas em eleme
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/100% 100vh ;
+  background: var(--bg-url) no-repeat top center/100% 100% ;
   font-family: Inter, sans-serif;
   color: var(--text-color);
 }
