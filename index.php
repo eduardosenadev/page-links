@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Page Links</title>
+</head>
+<body>
+<div class="container">
+    <div class="profile">
+        <img src="assets/images/avatar.png"
+             alt="Foto de Perfil do Eduardo Sena">
+        <p>@eduardosenadev</p>
+    </div>
+    <div class="switch">
+        <div class="switch-content" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+    </div>
+    <div class="links">
+        <ul>
+            <li><a href="https://www.github.com/eduardosenadev/" target="_black">Meu Github</a></li>
+            <li><a href="#" target="_black">Meu Site</a></li>
+            <li><a href="#" target="_black">Meu Blog</a></li>
+            <li><a href="#" target="_black">Meu Portfólio</a></li>
+            <li><a href="https://publicode.com.br" target="_black">Minha Agência</a></li>
+        </ul>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.github.com/eduardosenadev/" target="_black">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/eduardosenadev/" target="_black">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.x.com/eduardosenadev/" target="_black">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/eduardosenadev/" target="_black">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+    </div>
+
+    <footer>
+        Feito com ♥ por <a href="https://www.linkedin.com/in/eduardosenadev/"
+                           target="_blank">@eduardosenadev</a>
+    </footer>
+</div>
+<script type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
