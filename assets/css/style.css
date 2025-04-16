@@ -18,7 +18,7 @@ Elementos "Inline", não é possível adicionar o "margin: auto" apenas em eleme
   --border-color: rgba(255, 255, 255, 0.5);
   --bg-color: rgba(255, 255, 255, 0.1);
   --bg-color-hover: rgba(255, 255, 255, 0.2);
-  --bg-switch: url(/assets/icons/moon-stars.svg);
+  --bg-switch: url("/assets/icons/moon-stars.svg");
 }
 
 .light {
@@ -27,7 +27,7 @@ Elementos "Inline", não é possível adicionar o "margin: auto" apenas em eleme
   --border-color: rgba(0, 0, 0, 0.5);
   --bg-color: rgba(0, 0, 0, 0.05);
   --bg-color-hover: rgba(0, 0, 0, 0.2);
-  --bg-switch: url(/assets/icons/sun.svg);
+  --bg-switch: url("/assets/icons/sun.svg");
 }
 
 body {
